@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/settings_cat_assistant_title">
+        <ListPreference
+            android:key="@string/settings_language_key"
+            android:entries="@array/language_entries"
+            android:summary="@string/settings_language_summ"
+            android:entryValues="@array/language_entries_values"
+            android:title="@string/settings_language_title"/>
+        <ListPreference
+            android:key="@string/settings_assistant_key"
+            android:title="@string/settings_assistant_title"
+            android:summary="@string/settings_assistant_summery"
+            android:entries="@array/assistants_entries"
+            android:entryValues="@array/assistants_entries_values"/>
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="Voice settings"
+        android:summary="Edit voice settings">
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/settings_cat_other_title">
+        <SwitchPreference
+            android:key="@string/settings_vibrate_key"
+            android:title="@string/settings_vibrate_title"
+            android:summary="vibrate"
+            android:defaultValue="false"/>
+        <SwitchPreference
+            android:key="@string/settings_notifications_key"
+            android:title="@string/settings_notifications_title"
+            android:summary="@string/settings_notifications_summery"
+            android:defaultValue="false"
+            android:theme="@style/AppTheme"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

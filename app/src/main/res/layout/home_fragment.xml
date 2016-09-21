@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+            <!--Imageview-->
+        <ImageView
+            android:id="@+id/assistant"
+            android:layout_width="125dp"
+            android:layout_height="155dp"
+            android:background="@drawable/assistant"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+        <!--End Imageview-->
+
+
+            <!--Agent parole TextView-->
+            <TextView
+                android:id="@+id/agent_say_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/opning_message"
+                android:layout_below="@+id/assistant"
+                android:padding="2dp"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/white"/>
+            <!--End Agent parole TextView-->
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/buttom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="8dp"
+        android:background="@color/white">
+
+        <EditText
+            android:hint="Click to edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:cursorVisible="false"
+            android:singleLine="true"
+            android:imeOptions="actionSend"/>
+        <!--button listen-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/speck_button"
+            android:id="@+id/button_listen"
+            android:layout_below="@+id/edit_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+    <!--progress bar-->
+    <ProgressBar
+        android:id="@+id/circular_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:indeterminate="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assistant</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="connexion_problem">I have problems connecting with the network. Can you check your internet connection please ?</string>
+    <string name="opning_message">Hello, How can I help you?</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="large_text">" Hello!\n    I am a virtual assistant my name is Assitant. Ask me anything and i will replay."
+    </string>
+    <string name="settings_cat_assistant_title">Assistant settings</string>
+    <string name="settings_language_key">language</string>
+    <string name="settings_language_summ">Language</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_assistant_key">assistant</string>
+    <string name="settings_assistant_title">Assistant character</string>
+    <string name="settings_assistant_summery">Choose one of the assistants</string>
+    <string name="settings_cat_other_title">Other settings</string>
+    <string name="settings_vibrate_key">vibrate</string>
+    <string name="settings_notifications_key">notifications</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_notifications_summery">Notify me when there is new updates or news</string>
+    <string name="settings_vibrate_title">Vibrate</string>
+    <string name="reconnaissance_problem">Speak more clrarly or check your internet connexion!</string>
+</resources>

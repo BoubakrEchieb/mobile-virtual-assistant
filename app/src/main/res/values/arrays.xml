@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="language_entries_values">
+        <item>EN</item>
+        <item>FR</item>
+    </string-array>
+    <string-array name="assistants_entries">
+        <item>The girl</item>
+    </string-array>
+    <string-array name="assistants_entries_values">
+        <item>girl</item>
+    </string-array>
+</resources>
