@@ -213,9 +213,9 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         prefsNotifications = preferences.getBoolean(PREFS_NOTIFICATIONS_KEY,false);
     }
     //update preferences
-    public void updatePreferences(){
+    /*public void updatePreferences(){
         //TODO
-    }
+    }*/
 
     @Override
     protected void onDestroy() {

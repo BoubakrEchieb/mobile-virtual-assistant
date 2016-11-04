@@ -20,5 +20,5 @@
     <string name="settings_notifications_title">Notifications</string>
     <string name="settings_notifications_summery">Notify me when there is new updates or news</string>
     <string name="settings_vibrate_title">Vibrate</string>
-    <string name="reconnaissance_problem">Speak more clrarly or check your internet connexion!</string>
+    <string name="reconnaissance_problem">Speak more clearly or check your internet connexion!</string>
 </resources>
